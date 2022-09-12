@@ -72,3 +72,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Provide for adding environment variables
+gem "figaro"
