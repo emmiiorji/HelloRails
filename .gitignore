@@ -32,4 +32,4 @@
 
 /config/test_set.rbq
 # Ignore application configuration
-/config/application.yml
+.env

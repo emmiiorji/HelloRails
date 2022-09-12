@@ -1,3 +1,5 @@
+gem 'dotenv-rails', :groups => [:development, :test]
+
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -73,5 +75,3 @@ group :test do
   gem "webdrivers"
 end
 
-# Provide for adding environment variables
-gem "figaro"
